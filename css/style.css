@@ -9,25 +9,38 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main{
+  min-height: 100vh;
+  background-color: rgba(135, 38, 225, 0.849);
+}
+
 .container{
-  width: 80%;
+  width: 70%;
   max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box{
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 5px;
+}
+
+.text{
+  margin: 0 20px;
 }
 
 /*MAIN*/
 main h1{
   text-align: center;
   margin: 20px 0;
+  color: white;
 }
 
-.yellowgreen{
-  background-color: yellowgreen;
-}
-
-.green{
-  background-color: green;
-}
-
-.yellow{
-  background-color: yellow;
-}
