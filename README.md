@@ -10,6 +10,8 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 - Scrivere una condizione per cui per i multipli di 5 stampi "Buzz";
 - Scrivere una condizione per cui per i numeri che sono sia multipli di 3 che multipli di 5, stampi "FizzBuzz";
 
-
 ## FIRST STEP
-- utilizzare l'operazione modulo per capire quali numeri sono i multipli di 3, quali di 5 e quali di entrambi.
+1)Selezionare i numeri da 1 a 100;
+
+## SECOND STEP
+2)utilizzare l'operazione modulo per capire quali numeri sono i multipli di 3, quali di 5 e quali di entrambi;
