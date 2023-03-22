@@ -27,3 +27,6 @@ Creare un container nel DOM , aggiungendo (attraverso la funzione `append()`) un
 
 ## FIFTH STEP
 5) Creare un altro elemento e posizionarlo dentro il container;
+
+## SIXTH STEP
+6) Stampo in pagina;

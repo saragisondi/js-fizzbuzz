@@ -19,6 +19,7 @@ let text = '';
 //CONTAINER
 const container = document.createElement("div");
 container.classList.add("container");
+
 console.log(container)
 
 //BOX
@@ -29,3 +30,4 @@ console.log(box)
 //BOX DENTRO CONTAINER
 container.append(box);
 box.append(text);
+

@@ -1,0 +1,17 @@
+/*GENERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*MAIN*/
+main h1{
+  text-align: center;
+  margin: 20px 0;
+}
