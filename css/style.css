@@ -9,9 +9,25 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container{
+  width: 80%;
+  max-width: 1200px;
+}
 
 /*MAIN*/
 main h1{
   text-align: center;
   margin: 20px 0;
+}
+
+.yellowgreen{
+  background-color: yellowgreen;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
 }
