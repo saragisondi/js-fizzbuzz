@@ -11,16 +11,8 @@ console.log(container)
 for(let i=1; i<=100; i++){
   
   text = i;
-  
-  if (!(i % 15)) {
-    text = 'fizzBuzz';
-  } else if (!(i % 5)) {
-    text = 'Buzz';
-  }else if (!(i % 3)) {
-    text = 'Fizz';
-  }
 
-  //BOX
+   //BOX
   const box = document.createElement("div");
   box.classList.add("box");
   console.log(box)
@@ -28,5 +20,18 @@ for(let i=1; i<=100; i++){
   box.append(text)
   container.append(box)
   console.log(text)
-}
 
+  if (!(i % 15)) {
+    text = 'fizzBuzz';
+    box.classList.add("pink");
+  } else if (!(i % 5)) {
+    text = 'Buzz';
+    box.classList.add("bisque")
+  }else if (!(i % 3)) {
+    text = 'Fizz';
+    box.classList.add("lightsalmon")
+  }
+  else{
+    box.classList.add("yellow")
+  }
+}
