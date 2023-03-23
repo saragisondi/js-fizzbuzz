@@ -44,15 +44,15 @@ main h1{
   color: white;
 }
 
-.pink{
+.fizz{
   background-color: rgb(246, 94, 94);
 }
 
-.bisque{
+.buzz{
   background-color:rgb(255, 168, 61)
 }
 
-.lightsalmon{
+.fizzbuzz{
   background-color: lightsalmon;
 }
 

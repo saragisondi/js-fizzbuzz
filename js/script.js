@@ -10,28 +10,29 @@ console.log(container)
 //CICLO
 for(let i=1; i<=100; i++){
   
-  text = i;
+let text = i;
 
-   //BOX
+  //BOX
   const box = document.createElement("div");
   box.classList.add("box");
   console.log(box)
   //BOX DENTRO CONTAINER
-  box.append(text)
   container.append(box)
   console.log(text)
-
+  
   if (!(i % 15)) {
     text = 'fizzBuzz';
-    box.classList.add("pink");
+    box.classList.add("fizzbuzz");
   } else if (!(i % 5)) {
     text = 'Buzz';
-    box.classList.add("bisque")
+    box.classList.add("buzz")
   }else if (!(i % 3)) {
     text = 'Fizz';
-    box.classList.add("lightsalmon")
+    box.classList.add("fizz")
   }
   else{
     box.classList.add("yellow")
   }
+
+  box.append(text)
 }
